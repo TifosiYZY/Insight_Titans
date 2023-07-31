@@ -3,6 +3,5 @@ language:
   ui:
     chapter_name: "Chapter "
 
-bookdown::gitbook:
-  config:
-    root_dir: "docs"
+book_filename: "_main"
+output_dir: "docs"
