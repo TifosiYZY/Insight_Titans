@@ -43,3 +43,5 @@ how-ai-is-produced-and-generated
 william
 r-markdown
 including-plots
+eq:binom
+thm:tri
