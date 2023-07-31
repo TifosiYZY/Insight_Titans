@@ -40,3 +40,6 @@ william-yu-1
 about-us-2
 nisarg-jhaveri-2
 how-ai-is-produced-and-generated
+william
+r-markdown
+including-plots
