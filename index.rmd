@@ -15,21 +15,18 @@ link-citations: yes
 github-repo: "rstudio/bookdown-demo"
 ---
 
-# Table of Content
-1. Introduction
-2. About Us
-3. How AI is Produced and Generated
-4. Data
-5. Hardware
-6. Privacy
-7. Bias
-8. Energy
-9. Regulations
-10. Censorship
-11. Alignment
-12. Personalized Large Language Models
-13. Open Source Software
-14. Conclusion
+# Introduction 
+
+This website is a learning tool for the Ross community, including students, alumni, faculty, and staff, on the ethical issues of how we produce and generate artificial intelligence. The information book will first begin with team introductions then discuss a general introduction into the current production/generation of artificial intelligence.
+
+After these introductions, we will transition into the main section of the book, discussing several areas of ethical concern as it relates to artificial intelligence. The first chapter will focus on the significance of data in AI and address concerns on how AI tools are generating/gathering data to feed to users without explicit permission. After discussing data gathering, the following chapter will focus on the limitations of hardware in AI and large language model development. Next, privacy concerns related to AI and language models will be discussed and we will talk about the need for AI companies to handle personal data responsibly. After that, bias issues will be addressed, explaining how data sources and training processes can lead to biased AI models.
+
+The next chapters will talk about the significant energy requirements for training and running these large language models as well as the challenges and benefits of regulations currently in place (and future regulations) for AI and large language model development. We will also talk through the concerns related to censorship in AI models and discuss changes in ChatGPT due to these censorship measures. 
+
+The last three chapters will talk about the ethical concerns related to AI in alignment, personalized large language models, and open-source software. Alignment will talk about how models have the potential to be politically or ideologically aligned. Personalized LLM and open-source software will touch on the benefits and challenges of customization and explore the benefits and risks of open-sourcing models like ChatGPT. 
+
+We recognize the research and resources our team has provided as surface-level discussions of these topics, but we hope this tool can be a baseline for future students of the Ross community as we move into a world adapting to rising artificial intelligence.
+
 
 
 
