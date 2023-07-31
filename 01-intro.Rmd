@@ -1,6 +1,6 @@
 # Introduction 
 
-T  website is a learning tool for the Ross community, including students, alumni, faculty, and staff, on the ethical issues of how we produce and generate artificial intelligence. The information book will first begin with team introductions then discuss a general introduction into the current production/generation of artificial intelligence.
+This website is a learning tool for the Ross community, including students, alumni, faculty, and staff, on the ethical issues of how we produce and generate artificial intelligence. The information book will first begin with team introductions then discuss a general introduction into the current production/generation of artificial intelligence.
 
 After these introductions, we will transition into the main section of the book, discussing several areas of ethical concern as it relates to artificial intelligence. The first chapter will focus on the significance of data in AI and address concerns on how AI tools are generating/gathering data to feed to users without explicit permission. After discussing data gathering, the following chapter will focus on the limitations of hardware in AI and large language model development. Next, privacy concerns related to AI and language models will be discussed and we will talk about the need for AI companies to handle personal data responsibly. After that, bias issues will be addressed, explaining how data sources and training processes can lead to biased AI models.
 
