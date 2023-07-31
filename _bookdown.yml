@@ -3,3 +3,6 @@ language:
   ui:
     chapter_name: "Chapter "
 
+
+book_filename: "my-book"
+output_dir: "docs"

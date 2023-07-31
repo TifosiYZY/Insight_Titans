@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 12 Open Source Software | The Ethical Dilemma of AI</title>
+  <meta name="description" content="<p>This is a minimal example of using the bookdown package to write a book.
+set in the _output.yml file.
+The HTML output format for this example is bookdown::gitbook,</p>" />
+  <meta name="generator" content="bookdown 0.34 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 12 Open Source Software | The Ethical Dilemma of AI" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+set in the _output.yml file.
+The HTML output format for this example is bookdown::gitbook,</p>" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 12 Open Source Software | The Ethical Dilemma of AI" />
+  
+  <meta name="twitter:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+set in the _output.yml file.
+The HTML output format for this example is bookdown::gitbook,</p>" />
+  
+
+<meta name="author" content="Catherine Visscher, Nisarg Jhaveri, Aaron Zhao, Zach Gooding, William Yu" />
+
+
+<meta name="date" content="2023-07-31" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="personalized-large-language-model.html"/>
+<link rel="next" href="conclusion.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Insight Titans</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="about-us.html"><a href="about-us.html"><i class="fa fa-check"></i><b>2</b> About Us</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="about-us.html"><a href="about-us.html#nisarg-jhaveri"><i class="fa fa-check"></i><b>2.1</b> Nisarg Jhaveri</a></li>
+<li class="chapter" data-level="2.2" data-path="about-us.html"><a href="about-us.html#catherine-visscher"><i class="fa fa-check"></i><b>2.2</b> Catherine Visscher</a></li>
+<li class="chapter" data-level="2.3" data-path="about-us.html"><a href="about-us.html#zach-gooding"><i class="fa fa-check"></i><b>2.3</b> Zach Gooding</a></li>
+<li class="chapter" data-level="2.4" data-path="about-us.html"><a href="about-us.html#aaron-zhao"><i class="fa fa-check"></i><b>2.4</b> Aaron Zhao</a></li>
+<li class="chapter" data-level="2.5" data-path="about-us.html"><a href="about-us.html#william-yu"><i class="fa fa-check"></i><b>2.5</b> William Yu</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="how-ai-is-produced-and-generated.html"><a href="how-ai-is-produced-and-generated.html"><i class="fa fa-check"></i><b>3</b> How AI is Produced and Generated</a></li>
+<li class="chapter" data-level="4" data-path="hardware.html"><a href="hardware.html"><i class="fa fa-check"></i><b>4</b> Hardware</a></li>
+<li class="chapter" data-level="5" data-path="privacy.html"><a href="privacy.html"><i class="fa fa-check"></i><b>5</b> Privacy</a></li>
+<li class="chapter" data-level="6" data-path="bias.html"><a href="bias.html"><i class="fa fa-check"></i><b>6</b> Bias</a></li>
+<li class="chapter" data-level="7" data-path="energy.html"><a href="energy.html"><i class="fa fa-check"></i><b>7</b> Energy</a></li>
+<li class="chapter" data-level="8" data-path="regulations.html"><a href="regulations.html"><i class="fa fa-check"></i><b>8</b> Regulations</a></li>
+<li class="chapter" data-level="9" data-path="censorship.html"><a href="censorship.html"><i class="fa fa-check"></i><b>9</b> Censorship</a></li>
+<li class="chapter" data-level="10" data-path="alignment.html"><a href="alignment.html"><i class="fa fa-check"></i><b>10</b> Alignment</a></li>
+<li class="chapter" data-level="11" data-path="personalized-large-language-model.html"><a href="personalized-large-language-model.html"><i class="fa fa-check"></i><b>11</b> Personalized Large Language Model</a></li>
+<li class="chapter" data-level="12" data-path="open-source-software.html"><a href="open-source-software.html"><i class="fa fa-check"></i><b>12</b> Open Source Software</a></li>
+<li class="chapter" data-level="13" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>13</b> Conclusion</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">The Ethical Dilemma of AI</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="open-source-software" class="section level1 hasAnchor" number="12">
+<h1><span class="header-section-number">Chapter 12</span> Open Source Software<a href="open-source-software.html#open-source-software" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="personalized-large-language-model.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="conclusion.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/13-Open-Source-Software.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["my-book.pdf", "my-book.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
