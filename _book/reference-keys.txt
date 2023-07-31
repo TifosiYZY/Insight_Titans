@@ -45,3 +45,4 @@ r-markdown
 including-plots
 eq:binom
 thm:tri
+data
