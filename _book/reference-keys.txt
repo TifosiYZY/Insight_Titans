@@ -46,3 +46,6 @@ including-plots
 eq:binom
 thm:tri
 data
+hardware
+privacy
+bias
