@@ -3,5 +3,3 @@ language:
   ui:
     chapter_name: "Chapter "
 
-book_filename: "_main"
-output_dir: "document"
