@@ -1,3 +1,41 @@
+--- 
+title: "The Ethical Dilemma of AI"
+author: "Catherine Visscher, Nisarg Jhaveri, Aaron Zhao, Zach Gooding, William Yu"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography:
+- book.bib
+- packages.bib
+
+description: |
+  This is a minimal example of using the bookdown package to write a book.
+  set in the _output.yml file.
+  The HTML output format for this example is bookdown::gitbook,
+link-citations: yes
+github-repo: "rstudio/bookdown-demo"
+---
+
+# Introduction 
+
+This website is a learning tool for the Ross community, including students, alumni, faculty, and staff, on the ethical issues of how we produce and generate artificial intelligence. The information book will first begin with team introductions then discuss a general introduction into the current production/generation of artificial intelligence.
+
+After these introductions, we will transition into the main section of the book, discussing several areas of ethical concern as it relates to artificial intelligence. The first chapter will focus on the significance of data in AI and address concerns on how AI tools are generating/gathering data to feed to users without explicit permission. After discussing data gathering, the following chapter will focus on the limitations of hardware in AI and large language model development. Next, privacy concerns related to AI and language models will be discussed and we will talk about the need for AI companies to handle personal data responsibly. After that, bias issues will be addressed, explaining how data sources and training processes can lead to biased AI models.
+
+The next chapters will talk about the significant energy requirements for training and running these large language models as well as the challenges and benefits of regulations currently in place (and future regulations) for AI and large language model development. We will also talk through the concerns related to censorship in AI models and discuss changes in ChatGPT due to these censorship measures. 
+
+The last three chapters will talk about the ethical concerns related to AI in alignment, personalized large language models, and open-source software. Alignment will talk about how models have the potential to be politically or ideologically aligned. Personalized LLM and open-source software will touch on the benefits and challenges of customization and explore the benefits and risks of open-sourcing models like ChatGPT. 
+
+We recognize the research and resources our team has provided as surface-level discussions of these topics, but we hope this tool can be a baseline for future students of the Ross community as we move into a world adapting to rising artificial intelligence.
+
+
+
+
+
+
+
+<!--chapter:end:index.rmd-->
+
 # About Us
 Hi there, we are the Insight Titans! We are the Masters of Business Analytics Class of 2024 and we are here to <insert more text here>
 
@@ -34,4 +72,95 @@ Hi everyone, my name is William Yu and I am from China. I graduated from Indiana
 
 During my free time, I am enthusiastic about cycling and triathlon. As a two time Ironman 70.3 finisher, I enjoy pushing myself beyond what I thought possible and the sense of accomplishment after every long-distance endurance workouts.
 
+
+
+<!--chapter:end:02-about-us.Rmd-->
+
+# How AI is Produced and Generated
+
+
+
+
+
+<!--chapter:end:03-How-AI-is-Produced-and-Generated.Rmd-->
+
+# Hardware
+
+
+
+
+
+<!--chapter:end:05-Hardware.Rmd-->
+
+# Privacy
+
+
+
+
+
+<!--chapter:end:06-Privacy.Rmd-->
+
+# Bias
+
+
+
+
+
+<!--chapter:end:07-Bias.Rmd-->
+
+# Energy
+
+
+
+
+
+<!--chapter:end:08-Energy.Rmd-->
+
+# Regulations
+
+
+
+
+
+<!--chapter:end:09-Regulations.Rmd-->
+
+# Censorship
+
+
+
+
+
+<!--chapter:end:10-Censorship.Rmd-->
+
+# Alignment
+
+
+
+
+
+<!--chapter:end:11-Alignment.Rmd-->
+
+# Personalized Large Language Model
+
+
+
+
+
+<!--chapter:end:12-Personalized-Large-Language-Models.Rmd-->
+
+# Open Source Software
+
+
+
+
+
+<!--chapter:end:13-Open-Source-Software.Rmd-->
+
+# Conclusion
+
+
+
+
+
+<!--chapter:end:14-Conclusion.Rmd-->
 
