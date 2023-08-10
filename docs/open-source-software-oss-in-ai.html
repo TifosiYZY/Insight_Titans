@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 12 Open Source Software (OSS) in AI | The Ethical Dilemma of AI</title>
+  <meta name="description" content="<p>This is a minimal example of using the bookdown package to write a book.
+set in the _output.yml file.
+The HTML output format for this example is bookdown::gitbook,</p>" />
+  <meta name="generator" content="bookdown 0.34 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 12 Open Source Software (OSS) in AI | The Ethical Dilemma of AI" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+set in the _output.yml file.
+The HTML output format for this example is bookdown::gitbook,</p>" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 12 Open Source Software (OSS) in AI | The Ethical Dilemma of AI" />
+  
+  <meta name="twitter:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+set in the _output.yml file.
+The HTML output format for this example is bookdown::gitbook,</p>" />
+  
+
+<meta name="author" content="Catherine Visscher, Nisarg Jhaveri, Aaron Zhao, Zach Gooding, William Yu" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="personalized-large-language-models-llms.html"/>
+<link rel="next" href="conclusion---challenges-and-future-directions.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Insight Titans</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="about-us.html"><a href="about-us.html"><i class="fa fa-check"></i><b>2</b> About Us</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="about-us.html"><a href="about-us.html#nisarg-jhaveri"><i class="fa fa-check"></i><b>2.1</b> Nisarg Jhaveri</a></li>
+<li class="chapter" data-level="2.2" data-path="about-us.html"><a href="about-us.html#catherine-visscher"><i class="fa fa-check"></i><b>2.2</b> Catherine Visscher</a></li>
+<li class="chapter" data-level="2.3" data-path="about-us.html"><a href="about-us.html#zach-gooding"><i class="fa fa-check"></i><b>2.3</b> Zach Gooding</a></li>
+<li class="chapter" data-level="2.4" data-path="about-us.html"><a href="about-us.html#aaron-zhao"><i class="fa fa-check"></i><b>2.4</b> Aaron Zhao</a></li>
+<li class="chapter" data-level="2.5" data-path="about-us.html"><a href="about-us.html#william-yu"><i class="fa fa-check"></i><b>2.5</b> William Yu</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="hardware.html"><a href="hardware.html"><i class="fa fa-check"></i><b>3</b> Hardware</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="hardware.html"><a href="hardware.html#hardwardware-requirements-for-nlp-developing"><i class="fa fa-check"></i><b>3.1</b> Hardwardware Requirements for NLP Developing</a></li>
+<li class="chapter" data-level="3.2" data-path="hardware.html"><a href="hardware.html#case-analysis"><i class="fa fa-check"></i><b>3.2</b> Case Analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="energy.html"><a href="energy.html"><i class="fa fa-check"></i><b>4</b> Energy</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="energy.html"><a href="energy.html#facts-on-current-generative-ai-energy-usage"><i class="fa fa-check"></i><b>4.1</b> Facts on Current Generative AI Energy Usage</a></li>
+<li class="chapter" data-level="4.2" data-path="energy.html"><a href="energy.html#why-training-generative-ai-uses-so-much-energy"><i class="fa fa-check"></i><b>4.2</b> Why Training Generative AI Uses So Much Energy</a></li>
+<li class="chapter" data-level="4.3" data-path="energy.html"><a href="energy.html#how-companies-can-make-ai-models-greener"><i class="fa fa-check"></i><b>4.3</b> How Companies Can Make AI Models Greener</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="regulations.html"><a href="regulations.html"><i class="fa fa-check"></i><b>5</b> Regulations</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="regulations.html"><a href="regulations.html#us-federal-regulations"><i class="fa fa-check"></i><b>5.1</b> US Federal Regulations</a></li>
+<li class="chapter" data-level="5.2" data-path="regulations.html"><a href="regulations.html#regulation-abroad"><i class="fa fa-check"></i><b>5.2</b> Regulation Abroad</a></li>
+<li class="chapter" data-level="5.3" data-path="regulations.html"><a href="regulations.html#challenges-of-regulation"><i class="fa fa-check"></i><b>5.3</b> Challenges of Regulation</a></li>
+<li class="chapter" data-level="5.4" data-path="regulations.html"><a href="regulations.html#benefits-of-regulation"><i class="fa fa-check"></i><b>5.4</b> Benefits of Regulation</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="censorship.html"><a href="censorship.html"><i class="fa fa-check"></i><b>6</b> Censorship</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="censorship.html"><a href="censorship.html#pausing-ai-moratorium"><i class="fa fa-check"></i><b>6.1</b> “Pausing AI” / moratorium</a></li>
+<li class="chapter" data-level="6.2" data-path="censorship.html"><a href="censorship.html#internationational-arms-race"><i class="fa fa-check"></i><b>6.2</b> Internationational arms race</a></li>
+<li class="chapter" data-level="6.3" data-path="censorship.html"><a href="censorship.html#adapting-to-human-values"><i class="fa fa-check"></i><b>6.3</b> Adapting to human values</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>7</b> Data</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="data.html"><a href="data.html#diversitybiases-of-data"><i class="fa fa-check"></i><b>7.1</b> Diversity/Biases of Data</a></li>
+<li class="chapter" data-level="7.2" data-path="data.html"><a href="data.html#synethic-vs-real-data"><i class="fa fa-check"></i><b>7.2</b> Synethic vs Real Data</a></li>
+<li class="chapter" data-level="7.3" data-path="data.html"><a href="data.html#ethical-dilemma-of-web-scraping"><i class="fa fa-check"></i><b>7.3</b> Ethical Dilemma of Web Scraping</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="bias.html"><a href="bias.html"><i class="fa fa-check"></i><b>8</b> Bias</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="bias.html"><a href="bias.html#in-llms"><i class="fa fa-check"></i><b>8.1</b> In LLMS</a></li>
+<li class="chapter" data-level="8.2" data-path="bias.html"><a href="bias.html#addressing-the-issue"><i class="fa fa-check"></i><b>8.2</b> Addressing the Issue</a></li>
+<li class="chapter" data-level="8.3" data-path="bias.html"><a href="bias.html#mit-chatgpt-bias-study"><i class="fa fa-check"></i><b>8.3</b> MIT ChatGPT Bias Study</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="alignment.html"><a href="alignment.html"><i class="fa fa-check"></i><b>9</b> Alignment</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="alignment.html"><a href="alignment.html#what-values-is-ai-supposed-to-align-to"><i class="fa fa-check"></i><b>9.1</b> What values is AI supposed to align to?</a></li>
+<li class="chapter" data-level="9.2" data-path="alignment.html"><a href="alignment.html#how-can-we-generalize-values-despite-coming-from-different-training-data"><i class="fa fa-check"></i><b>9.2</b> How can we generalize values despite coming from different training data?</a></li>
+<li class="chapter" data-level="9.3" data-path="alignment.html"><a href="alignment.html#long-term-values"><i class="fa fa-check"></i><b>9.3</b> Long-term values</a></li>
+<li class="chapter" data-level="9.4" data-path="alignment.html"><a href="alignment.html#algorithmic-improvement"><i class="fa fa-check"></i><b>9.4</b> Algorithmic Improvement</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="alignment-1.html"><a href="alignment-1.html"><i class="fa fa-check"></i><b>10</b> Alignment</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="alignment-1.html"><a href="alignment-1.html#scaling-laws-for-neural-language-models"><i class="fa fa-check"></i><b>10.1</b> Scaling Laws for Neural Language Models</a></li>
+<li class="chapter" data-level="10.2" data-path="alignment-1.html"><a href="alignment-1.html#privacy-enhancing-technologies---mithril-securities-blindai"><i class="fa fa-check"></i><b>10.2</b> Privacy Enhancing Technologies - Mithril Securities BlindAI</a></li>
+<li class="chapter" data-level="10.3" data-path="alignment-1.html"><a href="alignment-1.html#auto-ml"><i class="fa fa-check"></i><b>10.3</b> Auto ML</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="personalized-large-language-models-llms.html"><a href="personalized-large-language-models-llms.html"><i class="fa fa-check"></i><b>11</b> Personalized Large Language Models (LLMs)</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="personalized-large-language-models-llms.html"><a href="personalized-large-language-models-llms.html#what-is-hugging-face-and-why-do-we-need-to-know-about-it"><i class="fa fa-check"></i><b>11.1</b> What is hugging face, and why do we need to know about it?</a>
+<ul>
+<li class="chapter" data-level="11.1.1" data-path="personalized-large-language-models-llms.html"><a href="personalized-large-language-models-llms.html#democratizing-access-to-advanced-ai-models"><i class="fa fa-check"></i><b>11.1.1</b> Democratizing Access to Advanced AI Models</a></li>
+<li class="chapter" data-level="11.1.2" data-path="personalized-large-language-models-llms.html"><a href="personalized-large-language-models-llms.html#accelerating-ai-development"><i class="fa fa-check"></i><b>11.1.2</b> Accelerating AI Development</a></li>
+<li class="chapter" data-level="11.1.3" data-path="personalized-large-language-models-llms.html"><a href="personalized-large-language-models-llms.html#collaboration-and-community"><i class="fa fa-check"></i><b>11.1.3</b> Collaboration and Community</a></li>
+<li class="chapter" data-level="11.1.4" data-path="personalized-large-language-models-llms.html"><a href="personalized-large-language-models-llms.html#open-source-philosophy"><i class="fa fa-check"></i><b>11.1.4</b> Open-Source Philosophy</a></li>
+</ul></li>
+<li class="chapter" data-level="11.2" data-path="personalized-large-language-models-llms.html"><a href="personalized-large-language-models-llms.html#benefits-of-personalized-llms"><i class="fa fa-check"></i><b>11.2</b> Benefits of Personalized LLMs</a>
+<ul>
+<li class="chapter" data-level="11.2.1" data-path="personalized-large-language-models-llms.html"><a href="personalized-large-language-models-llms.html#enhanced-user-experience"><i class="fa fa-check"></i><b>11.2.1</b> Enhanced User Experience</a></li>
+<li class="chapter" data-level="11.2.2" data-path="personalized-large-language-models-llms.html"><a href="personalized-large-language-models-llms.html#improved-task-performance"><i class="fa fa-check"></i><b>11.2.2</b> Improved Task Performance</a></li>
+<li class="chapter" data-level="11.2.3" data-path="personalized-large-language-models-llms.html"><a href="personalized-large-language-models-llms.html#industry-applications"><i class="fa fa-check"></i><b>11.2.3</b> Industry Applications</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="open-source-software-oss-in-ai.html"><a href="open-source-software-oss-in-ai.html"><i class="fa fa-check"></i><b>12</b> Open Source Software (OSS) in AI</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="open-source-software-oss-in-ai.html"><a href="open-source-software-oss-in-ai.html#what-is-open-source-software"><i class="fa fa-check"></i><b>12.1</b> What is Open Source Software?</a></li>
+<li class="chapter" data-level="12.2" data-path="open-source-software-oss-in-ai.html"><a href="open-source-software-oss-in-ai.html#benefits-of-open-source-llms-httpshuggingface.coblogos-llms"><i class="fa fa-check"></i><b>12.2</b> Benefits of Open Source LLMs (<span>https://huggingface.co/blog/os-llms</span>)</a>
+<ul>
+<li class="chapter" data-level="12.2.1" data-path="open-source-software-oss-in-ai.html"><a href="open-source-software-oss-in-ai.html#collaboration-and-innovation"><i class="fa fa-check"></i><b>12.2.1</b> Collaboration and Innovation</a></li>
+<li class="chapter" data-level="12.2.2" data-path="open-source-software-oss-in-ai.html"><a href="open-source-software-oss-in-ai.html#transparency-and-accountability"><i class="fa fa-check"></i><b>12.2.2</b> Transparency and Accountability</a></li>
+<li class="chapter" data-level="12.2.3" data-path="open-source-software-oss-in-ai.html"><a href="open-source-software-oss-in-ai.html#collective-advancement"><i class="fa fa-check"></i><b>12.2.3</b> Collective Advancement</a></li>
+</ul></li>
+<li class="chapter" data-level="12.3" data-path="open-source-software-oss-in-ai.html"><a href="open-source-software-oss-in-ai.html#examples-of-open-source-projects-for-llms-cut-some-out"><i class="fa fa-check"></i><b>12.3</b> Examples of Open-Source Projects for LLMs (Cut some out)</a>
+<ul>
+<li class="chapter" data-level="12.3.1" data-path="open-source-software-oss-in-ai.html"><a href="open-source-software-oss-in-ai.html#gpt4all"><i class="fa fa-check"></i><b>12.3.1</b> GPT4ALL</a></li>
+<li class="chapter" data-level="12.3.2" data-path="open-source-software-oss-in-ai.html"><a href="open-source-software-oss-in-ai.html#stability-ai"><i class="fa fa-check"></i><b>12.3.2</b> Stability-AI</a></li>
+<li class="chapter" data-level="12.3.3" data-path="open-source-software-oss-in-ai.html"><a href="open-source-software-oss-in-ai.html#free-dolly"><i class="fa fa-check"></i><b>12.3.3</b> Free Dolly</a></li>
+<li class="chapter" data-level="12.3.4" data-path="open-source-software-oss-in-ai.html"><a href="open-source-software-oss-in-ai.html#open-assistant"><i class="fa fa-check"></i><b>12.3.4</b> Open Assistant</a></li>
+<li class="chapter" data-level="12.3.5" data-path="open-source-software-oss-in-ai.html"><a href="open-source-software-oss-in-ai.html#redpajama"><i class="fa fa-check"></i><b>12.3.5</b> RedPajama</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="conclusion---challenges-and-future-directions.html"><a href="conclusion---challenges-and-future-directions.html"><i class="fa fa-check"></i><b>13</b> Conclusion - Challenges and Future Directions</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="conclusion---challenges-and-future-directions.html"><a href="conclusion---challenges-and-future-directions.html#data-diversity-delete"><i class="fa fa-check"></i><b>13.1</b> Data Diversity (delete)</a></li>
+<li class="chapter" data-level="13.2" data-path="conclusion---challenges-and-future-directions.html"><a href="conclusion---challenges-and-future-directions.html#privacy-and-security"><i class="fa fa-check"></i><b>13.2</b> Privacy and Security</a></li>
+<li class="chapter" data-level="13.3" data-path="conclusion---challenges-and-future-directions.html"><a href="conclusion---challenges-and-future-directions.html#ethical-frameworks"><i class="fa fa-check"></i><b>13.3</b> Ethical Frameworks</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">The Ethical Dilemma of AI</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="open-source-software-oss-in-ai" class="section level1 hasAnchor" number="12">
+<h1><span class="header-section-number">Chapter 12</span> Open Source Software (OSS) in AI<a href="open-source-software-oss-in-ai.html#open-source-software-oss-in-ai" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="what-is-open-source-software" class="section level2 hasAnchor" number="12.1">
+<h2><span class="header-section-number">12.1</span> What is Open Source Software?<a href="open-source-software-oss-in-ai.html#what-is-open-source-software" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="benefits-of-open-source-llms-httpshuggingface.coblogos-llms" class="section level2 hasAnchor" number="12.2">
+<h2><span class="header-section-number">12.2</span> Benefits of Open Source LLMs (<a href="https://huggingface.co/blog/os-llms" class="uri">https://huggingface.co/blog/os-llms</a>)<a href="open-source-software-oss-in-ai.html#benefits-of-open-source-llms-httpshuggingface.coblogos-llms" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="collaboration-and-innovation" class="section level3 hasAnchor" number="12.2.1">
+<h3><span class="header-section-number">12.2.1</span> Collaboration and Innovation<a href="open-source-software-oss-in-ai.html#collaboration-and-innovation" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+<div id="transparency-and-accountability" class="section level3 hasAnchor" number="12.2.2">
+<h3><span class="header-section-number">12.2.2</span> Transparency and Accountability<a href="open-source-software-oss-in-ai.html#transparency-and-accountability" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+<div id="collective-advancement" class="section level3 hasAnchor" number="12.2.3">
+<h3><span class="header-section-number">12.2.3</span> Collective Advancement<a href="open-source-software-oss-in-ai.html#collective-advancement" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+</div>
+<div id="examples-of-open-source-projects-for-llms-cut-some-out" class="section level2 hasAnchor" number="12.3">
+<h2><span class="header-section-number">12.3</span> Examples of Open-Source Projects for LLMs (Cut some out)<a href="open-source-software-oss-in-ai.html#examples-of-open-source-projects-for-llms-cut-some-out" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="gpt4all" class="section level3 hasAnchor" number="12.3.1">
+<h3><span class="header-section-number">12.3.1</span> GPT4ALL<a href="open-source-software-oss-in-ai.html#gpt4all" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+<div id="stability-ai" class="section level3 hasAnchor" number="12.3.2">
+<h3><span class="header-section-number">12.3.2</span> Stability-AI<a href="open-source-software-oss-in-ai.html#stability-ai" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+<div id="free-dolly" class="section level3 hasAnchor" number="12.3.3">
+<h3><span class="header-section-number">12.3.3</span> Free Dolly<a href="open-source-software-oss-in-ai.html#free-dolly" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+<div id="open-assistant" class="section level3 hasAnchor" number="12.3.4">
+<h3><span class="header-section-number">12.3.4</span> Open Assistant<a href="open-source-software-oss-in-ai.html#open-assistant" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+<div id="redpajama" class="section level3 hasAnchor" number="12.3.5">
+<h3><span class="header-section-number">12.3.5</span> RedPajama<a href="open-source-software-oss-in-ai.html#redpajama" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="personalized-large-language-models-llms.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="conclusion---challenges-and-future-directions.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/12-Open-Source-Software.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["my-book.pdf", "my-book.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
