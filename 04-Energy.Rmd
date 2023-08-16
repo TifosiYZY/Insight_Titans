@@ -1,13 +1,57 @@
-# Energy
+# Natural Resource Consumption
+One part of producing large artificial intelligence models that many users do not think of is the energy and water it takes to train these models and run them before they are available to the masses. As AI models get increasingly larger, companies will have to be more conscious of the energy required to make them, especially as the world moves towards a more carbon-neutral future. 
 
 ## Facts on Current Generative AI Energy Usage
+Gauging how much energy generative AI uses can be difficult for everyday users unfamiliar with the scale of energy units such as kilowatt hours or watts. There are several comparisons between the amount of energy it takes to train these models to things people are more familiar with. This includes comparisons such as power going to homes, as well as carbon dioxide emissions of an average American car. Some facts are listed below.
 
+- Just one model’s training can use more electricity than 100 US homes in a year[^8].
+
+- Training just one AI model can emit more than 626,000 pounds of carbon dioxide equivalent, which is nearly 5 times the lifetime emissions of an average American car[^9]. 
+
+- “Training the GPT-3 model just once consumes 1,287 MWh, which is enough to supply an average U.S. household for 120 years.”[^10] 
+
+ - Generating a single AI model with 110 million parameters consumed the energy required for a round-trip transcontinental flight for one person[^11].
+
+Some may argue that training any computer models takes large amounts of energy, but because AI programs are so complex, they require more energy than other forms of computing[^12]. Seeing the comparisons made to everyday objects emphasizes the environmental impact of these models and how things need to change.
 
 ## Why Training Generative AI Uses So Much Energy
+There are many predictors of carbon emissions for these large AI models. Size is one of them, which includes the number of parameters a model has. Creating GPT-3, which has 175 billion parameters, generated an estimated 552 tons of carbon dioxide equivalent as it consumed 1,287 megawatt hours of electricity. As AI evolves, the number of parameters increases, with GPT-4 having over 1.7 trillion parameters. Below is a table of energy consumption of some large deep learning models[^13]
 
+## image4
 
+This emphasizes the fact that size has a huge impact on the energy consumption of these models. Meena, which is a model being created by Google ventures, has 2.6 billion parameters, and training it consumes only 18% of the energy that training GPT-3 does. As models continue to grow, developers will need to keep this in mind as we move away from fossil fuels as a primary energy resource.
+
+## AI’s Water Consumption
+One other main area of natural resource concern in training and running AI is the water consumption of these large models. We have already discussed the large amounts of energy these models require, but with these high-energy systems come high operating temperatures. This is where freshwater comes in, an increasingly scarce natural resource needed to cool these complex systems and keep the entire infrastructure running at an acceptable temperature[^14]. Researchers at the University of California, Riverside found that training for a GPT-3 model at Microsoft’s cutting edge data center consumed 700,000 liters of freshwater. This is equivalent to the same amount of water used to manufacture around 320 Tesla electric vehicles[^15]. The same group found that using 20-50 AI queries can use roughly half a liter of freshwater, an already scarce resource. Saltwater cannot be used to replace these water-wasting systems because it can lead to corrosion, clogged water pipes, and bacterial growth. Many believe that as AI continues to evolve and grow bigger, so will its water consumption. It is hard to fully gauge the actual water footprint of these large models but companies will have to reevaluate their sustainability goals as AI is becoming more and more integrated into our daily lives.
 
 ## How Companies Can Make AI Models Greener
+A study done by Google found that for the same size model, using a more efficient model architecture and processor with greener data centers can reduce the carbon footprint of these models by 100 to 1,000 times[^16]. This study was specific to machine learning, but this movement towards more efficient smaller models could be the way companies produce AI with a smaller environmental footprint. Google has found the 4Ms which are the best practices to reduce energy and carbon footprints. The four Ms are model, machine, mechanization, and map optimization. They are broken down further below.
+
+- Model: Selecting more efficient models, such as sparse models which can advance model quality and reduce computation.
+- Machine: Using processors/systems of optimized training for models which can improve performance and energy efficiency.
+- Mechanization: Computing in the cloud with warehouses equipped for energy efficiency.
+- Map optimization: Allows users to pick locations with the cleanest energy.
+
+Google believes that the 4Ms used together can reduce energy and emissions by 100x. With the 4Ms in mind, software developers working on future AI models can hopefully find areas to optimize and slim down their models to match the carbon-neutrality path we are moving towards to support a sustainable future.
+
+[^8]: https://cybernews.com/editorial/chatgpt-carbon-footprint/
+
+[^9]: https://www.forbes.com/sites/bernardmarr/2023/03/22/green-intelligence-why-data-and-ai-must-become-more-sustainable/?sh=2d7c77c27658
+
+[^10]: https://news.engin.umich.edu/2023/04/optimization-could-cut-the-carbon-footprint-of-ai-training-by-up-to-75/
+
+[^11]: https://www.scientificamerican.com/article/a-computer-scientist-breaks-down-generative-ais-hefty-carbon-footprint/
+
+[^12]: https://www.theguardian.com/technology/2023/jun/08/artificial-intelligence-industry-boom-environment-toll
+
+[^13]: https://medium.com/mlearning-ai/rethinking-large-language-models-for-nlp-alternatives-and-efficiency-73c6fead5ebf
+
+[^14]: https://www.businessinsider.com/chatgpt-generative-ai-water-use-environmental-impact-study-2023-4
+
+[^15]: https://news.ucr.edu/articles/2023/04/28/ai-programs-consume-large-volumes-scarce-water
+
+[^16]: https://ai.googleblog.com/2022/02/good-news-about-carbon-footprint-of.html
+
 
 
 

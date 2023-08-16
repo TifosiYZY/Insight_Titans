@@ -1,9 +1,0 @@
-# Data
-
-## Diversity/Biases of Data
-
-## Synethic vs Real Data
-
-## Ethical Dilemma of Web Scraping
-
-
