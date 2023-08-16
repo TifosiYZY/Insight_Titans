@@ -163,19 +163,24 @@ ChatGPT has purchased over 10,000 high-quality NVIDIA GPUs, boosting Nvidia prod
 
 In contrast to Bard, another of Google's AI products which uses the GPU provided by NVIDIA, Google employed its own hardware to develop the PaLM model. As of April 2023, Google announced that they had constructed a system consisting of over 4,000 TPUs, complemented by bespoke components engineered specifically for running and training AI models. This system has been operational since 2020 and was the powerhouse behind the training of Google's PaLM model, a rival to OpenAI's GPT, over a span of 50 days. Google researchers have highlighted that their TPU-based supercomputer, dubbed TPUv4, boasts a performance that is between 1.2 to 1.7 times faster and consumes between 1.3 to 1.9 times less energy compared to the Nvidia A100\footnote{\url{https://venturebeat.com/ai/redpajama-replicates-llama-to-build-open-source-state-of-the-art-llms/}}, and this model has cost Google \$100 billion to develop\footnote{\url{https://huggingface.co/docs/transformers/philosophy}}.
 
-\hypertarget{image15}{%
-\section[Image1]{\texorpdfstring{Image1\footnote{\url{https://research.netflix.com/research-area/machine-learning}}}{Image1}}\label{image15}}
+\hypertarget{ethical-dilemmas}{%
+\section{Ethical Dilemmas}\label{ethical-dilemmas}}
 
-\hypertarget{image26}{%
-\section[Image2]{\texorpdfstring{Image2\footnote{\url{https://www.nature.com/articles/s41591-023-02448-8}}}{Image2}}\label{image26}}
+\hypertarget{resource-allocation}{%
+\subsection{Resource Allocation}\label{resource-allocation}}
 
-\hypertarget{ethical-dilemma-about-resource-allocation-and-e-waste}{%
-\section{Ethical Dilemma about Resource Allocation and E-Waste}\label{ethical-dilemma-about-resource-allocation-and-e-waste}}
+The immense computational power needed to train large AI models requires significant financial investment. As we can see in the chart below\footnote{\url{https://research.netflix.com/research-area/machine-learning}} \footnote{\url{https://www.nature.com/articles/s41591-023-02448-8}}, the training cost for AI model development has been constantly increasing, and it is predicted to grow exponentially in the following years. The concern arises when considering how these resources might be alternatively used to address pressing societal issues like healthcare, education, infrastructure, or poverty reduction. Also, the allure of cutting-edge AI research may divert talent and funding away from other vital scientific areas. This can create an imbalance in research fields, possibly neglecting areas that might have a more immediate positive impact on human well-being.
 
-The immense computational power needed to train large AI models requires significant financial investment. As we can see in the chart below, the training cost for AI model development has been constantly increasing, and it is predicted to grow exponentially in the following years. The concern arises when considering how these resources might be alternatively used to address pressing societal issues like healthcare, education, infrastructure, or poverty reduction. Also, the allure of cutting-edge AI research may divert talent and funding away from other vital scientific areas. This can create an imbalance in research fields, possibly neglecting areas that might have a more immediate positive impact on human well-being.
+\includegraphics{figures/figure1.png}
+\includegraphics{figures/figure2.png}
+\#\#\# E-Waste
+The surge in the development of AI Large Language Models (LLMs) has resource implications that can be likened to the cryptocurrency boom two years ago, with its consequent mass production of electronic waste. The following chart\footnote{\url{https://www.cancer.gov/news-events/cancer-currents-blog/2022/artificial-intelligence-cancer-imaging}} shows the significant increase in Bitcoin Electronic Waste Generation over the past five years. The development of large AI language models, like cryptocurrency mining, requires substantial equipment investment and relatively frequent equipment iteration and upgrades. After each round of equipment upgrades, the original devices become obsolete and ultimately end up as electronic waste. Moreover, considering the specific functionality of the hardware used in large AI language models, there is even less hardware that can be recycled compared to the hardware discarded from mining.
 
-\hypertarget{image37}{%
-\section[image3]{\texorpdfstring{image3\footnote{\url{https://www.cancer.gov/news-events/cancer-currents-blog/2022/artificial-intelligence-cancer-imaging}}}{image3}}\label{image37}}
+\begin{figure}
+\centering
+\includegraphics{figures/figure3.png}
+\caption{Estimated Cost of Compute}
+\end{figure}
 
 \hypertarget{natural-resource-consumption}{%
 \chapter{Natural Resource Consumption}\label{natural-resource-consumption}}
@@ -205,8 +210,11 @@ Some may argue that training any computer models takes large amounts of energy, 
 
 There are many predictors of carbon emissions for these large AI models. Size is one of them, which includes the number of parameters a model has. Creating GPT-3, which has 175 billion parameters, generated an estimated 552 tons of carbon dioxide equivalent as it consumed 1,287 megawatt hours of electricity. As AI evolves, the number of parameters increases, with GPT-4 having over 1.7 trillion parameters. Below is a table of energy consumption of some large deep learning models\footnote{\url{https://medium.com/mlearning-ai/rethinking-large-language-models-for-nlp-alternatives-and-efficiency-73c6fead5ebf}}
 
-\hypertarget{image4}{%
-\section{image4}\label{image4}}
+\begin{figure}
+\centering
+\includegraphics{figures/figure4.png}
+\caption{Energy Consumption of Some Large Deep Learning Models}
+\end{figure}
 
 This emphasizes the fact that size has a huge impact on the energy consumption of these models. Meena, which is a model being created by Google ventures, has 2.6 billion parameters, and training it consumes only 18\% of the energy that training GPT-3 does. As models continue to grow, developers will need to keep this in mind as we move away from fossil fuels as a primary energy resource.
 
@@ -241,8 +249,11 @@ Data collection is the foundational step in the development of AI Large Language
 
 The table below shows the composition of a dataset called C-4, which Google used for its AI model training. However, with the popularity of the AI LLM, there are growing concerns about data, especially in terms of data content and collection methods.
 
-\hypertarget{image5}{%
-\section{image5}\label{image5}}
+\begin{figure}
+\centering
+\includegraphics{figures/figure5.png}
+\caption{Top 30 Sources for C-4 Dataset}
+\end{figure}
 
 \hypertarget{diversitybiases-of-data}{%
 \section{Diversity/Biases of Data}\label{diversitybiases-of-data}}
@@ -324,8 +335,11 @@ As one can imagine, this can be a big problem as the real world keeps changing a
 \hypertarget{concept-drift5}{%
 \subsection[Concept Drift]{\texorpdfstring{Concept Drift\footnote{\url{https://research.netflix.com/research-area/machine-learning}}}{Concept Drift}}\label{concept-drift5}}
 
-\hypertarget{image6}{%
-\section{Image6}\label{image6}}
+\begin{figure}
+\centering
+\includegraphics{figures/figure6.png}
+\caption{Top 30 Sources for C-4 Dataset}
+\end{figure}
 
 The following explanations for various types of drift have been provided by ChatGPT:\footnote{\url{https://www.nature.com/articles/s41591-023-02448-8}}
 

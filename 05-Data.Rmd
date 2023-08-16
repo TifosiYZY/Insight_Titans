@@ -4,7 +4,8 @@ Data collection is the foundational step in the development of AI Large Language
 The table below shows the composition of a dataset called C-4, which Google used for its AI model training. However, with the popularity of the AI LLM, there are growing concerns about data, especially in terms of data content and collection methods.
 
  
-## image5
+![Top 30 Sources for C-4 Dataset](figures/figure5.png)
+
 ## Diversity/Biases of Data
 A major concern about the quality of data used in training AI Large Language Models is ensuring that this data is diverse and free of bias. Given that a significant portion of the training data for these models comes from public sources, guaranteeing impartiality is challenging. For instance, Amazon encountered bias with an NLP tool designed to screen job applicants' resumes. The tool was trained on past resumes, using their linguistic patterns to filter current candidates. Historically, resumes from women were underrepresented, the tool unintentionally favored male candidates [^2].
 

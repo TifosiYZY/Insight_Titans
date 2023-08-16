@@ -22,7 +22,7 @@ Let’s say we train this amazingly complex system that is in line with our expe
 As one can imagine, this can be a big problem as the real world keeps changing and we can experience various types of drifts as the model tries to adapt to the changing environment and depending on the model’s ability to handle new data we can notice different types of drifts. 
 
 ### Concept Drift[^5]
-## Image6
+![ An Example of Concept Drift Types](figures/figure6.png)
 
 
 The following explanations for various types of drift have been provided by ChatGPT:[^6]

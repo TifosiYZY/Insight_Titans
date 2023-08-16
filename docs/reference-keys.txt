@@ -8,18 +8,14 @@ aaron-zhao
 hardware
 case-analysis---chatgpt
 case-analysis---bard
-image15
-image26
-ethical-dilemma-about-resource-allocation-and-e-waste
-image37
+ethical-dilemmas
+resource-allocation
 natural-resource-consumption
 facts-on-current-generative-ai-energy-usage
 why-training-generative-ai-uses-so-much-energy
-image4
 ais-water-consumption
 how-companies-can-make-ai-models-greener
 data
-image5
 diversitybiases-of-data
 web-scraping
 intellectual-property
@@ -33,7 +29,6 @@ value-alignment
 generalizing-values
 drifting
 concept-drift5
-image6
 data-drift
 algorithmic-improvement
 privacy
@@ -61,3 +56,4 @@ conclusion-challenges-and-future-directions
 privacy-and-security
 ethical-frameworks
 reference
+e-waste
