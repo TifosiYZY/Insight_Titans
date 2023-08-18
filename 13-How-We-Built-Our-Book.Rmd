@@ -31,6 +31,7 @@ Simplicity was an agile principle we really honed in throughout the term. We mad
 
 ## How did we Manage the RMarkdown/Git/GitHub Complexity and Learning Curve
 It was challenging when we started to work on RMarkdown and GitHub. Although Canvas provided in-depth instructions, we still encountered hurdles due to unfamiliarity with the GitHub Repository and of RBookdown. For example, it took us 4 hours to figure out how to post our book instead of the ‘Readme’ file to the GitHub Repository’s link. Thankfully, with resources like StackOverflow and assistance from ChatGPT, we managed to navigate these obstacles and have a basic understanding of the Rbook structure. 
+
 After initially building the structure of Gitbook, we decided to commit and push everything on one single device because we heard some other teams had problems with push and pulls on different devices simultaneously. In order to avoid irreversible damage to files in subsequent commits, we backed up the repo either on local devices or as another branch on GitHub after each stage is completed. These strategies went pretty well and we didn’t have any big technological  issues during the final push/commiting stage after all the content was written. 
 
  
