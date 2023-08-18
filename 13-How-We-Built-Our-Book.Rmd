@@ -1,6 +1,5 @@
 # How We Build Our Book
 ## Documentation of Our Group Process
-
 After we were organized into groups and tasked with this project, we all sat down together and laid out the expectations we had for the work we would put forward and what each other’s working styles were. Creating some clarity to make sure we were all working towards the same goal was really important to us and we believe it set is up for early success
 
 Once we knew each other’s feedback, we set a precedent of fast and efficient communication when it came to matters related to the course. This constant communication kept everyone on the same page and provided quick clarity and feedback for all of the deliverables.
@@ -29,7 +28,11 @@ The biggest agile practice that we adopted throughout the creation of the book w
 Customer collaboration was also a big area that we adopted. Through customer collaboration, during an in-class activity, we were able to discover more areas of focus for our book. This included addressing hallucinations which had not previously been planned on including. Although this activity was later in the term, we carried on with customer collaboration, touching points with our classmates for the duration of the semester to make sure we were covering all relevant material.
 
 Simplicity was an agile principle we really honed in throughout the term. We made our meetings very brief, some only lasting 10 minutes. We efficiently worked through all problems at hand and delegated tasks in an informal, simplistic manner. Using this mindset, we were able to come to conclusions more quickly and not get distracted by meaningless details not pertinent to the project.
+
 ## How did we Manage the RMarkdown/Git/GitHub Complexity and Learning Curve
+It was challenging when we started to work on RMarkdown and GitHub. Although Canvas provided in-depth instructions, we still encountered hurdles due to unfamiliarity with the GitHub Repository and of RBookdown. For example, it took us 4 hours to figure out how to post our book instead of the ‘Readme’ file to the GitHub Repository’s link. Thankfully, with resources like StackOverflow and assistance from ChatGPT, we managed to navigate these obstacles and have a basic understanding of the Rbook structure. 
+After initially building the structure of Gitbook, we decided to commit and push everything on one single device because we heard some other teams had problems with push and pulls on different devices simultaneously. In order to avoid irreversible damage to files in subsequent commits, we backed up the repo either on local devices or as another branch on GitHub after each stage is completed. These strategies went pretty well and we didn’t have any big technological  issues during the final push/commiting stage after all the content was written. 
+
  
 ## Concluding Thoughts as a Team
 We all hope you enjoyed this book as much as we enjoyed creating it. We hope readers will take these areas of concern to heart and pay attention to how AI evolves in the future. This was a phenomenal group to work with and we are all very grateful to have such a positive team experience.
