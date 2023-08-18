@@ -1,0 +1,35 @@
+# How We Build Our Book
+## Documentation of Our Group Process
+
+After we were organized into groups and tasked with this project, we all sat down together and laid out the expectations we had for the work we would put forward and what each other’s working styles were. Creating some clarity to make sure we were all working towards the same goal was really important to us and we believe it set is up for early success
+
+Once we knew each other’s feedback, we set a precedent of fast and efficient communication when it came to matters related to the course. This constant communication kept everyone on the same page and provided quick clarity and feedback for all of the deliverables.
+
+One thing we really stressed throughout the process was ensuring that everyone felt psychologically safe within the team setting. No idea was a bad idea and all of our discussions were a supportive environment. By then end, we were all working super well together and felt comfortable and safe in our meetings.
+
+## How Did Our Group Handle Challenges and Change
+The biggest way in which we handled challenge and change was to go back to our commitment to fast and reliable communication among the team members.
+
+With easier communication, we could figure out a solution to the problem more quickly and provide support to all members of the team sooner. When a challenge or change arose, we were proactive in our response and set an expectation that all members would work together to solve the problems as they came our way
+
+## How Did We Divide Work and Leverage Unique Strengths of Each Team Member?
+Given the wide range of programs that people in our cohort chose as their undergraduate degree, we understood that all of us brought different perspectives and skill sets to the group. Before any work was done, we made sure to have a discussion about areas we believed we excelled in and also recognized areas that could be improved. Knowing this made delegation of tasks much easier, though everyone was willing to lend a helping hand and learn from each other.
+
+For the work we were assigned throughout the term, most of our meeting focused on the most pressing deliverables and how they were to be done. We played to our strengths and each person would be assigned a task to be done by a predetermined time.
+
+Specifically as it relates to the book creating, William took the lead in creating the book template and ensuring that we would be able to push and pull from our personal devices. Nisarg and Aaron provided support throughout this process to make sure that things would be up and running. We all familiarize ourselves with simple R commands to make sure we could contribute to the actual chapter formation.
+
+For the content of the book, once we finally had an outline of the topics we wanted to cover, we split the overarching areas of focus into more manageable sections for everyone. This played to some people’s areas of interest or prior expertise.
+
+Finally, for the other deliverables, Zach and Cate focused on the presentation and making sure we were sharing our information with the class as efficiently and cleanly as possible. At the end of the day though, everyone in the team contributed to all areas of the class and we were able to put forth our best effort.
+
+## How Did We Adopt Agile Work Practices
+The biggest agile practice that we adopted throughout the creation of the book was individuals and interactions over processes and tools. Our whole experience was based on in person meetings with each other where we would bounce ideas back and forth over a documented process. It allowed us to be flexible in the work we carried out and led to a more efficient process.
+
+Customer collaboration was also a big area that we adopted. Through customer collaboration, during an in-class activity, we were able to discover more areas of focus for our book. This included addressing hallucinations which had not previously been planned on including. Although this activity was later in the term, we carried on with customer collaboration, touching points with our classmates for the duration of the semester to make sure we were covering all relevant material.
+
+Simplicity was an agile principle we really honed in throughout the term. We made our meetings very brief, some only lasting 10 minutes. We efficiently worked through all problems at hand and delegated tasks in an informal, simplistic manner. Using this mindset, we were able to come to conclusions more quickly and not get distracted by meaningless details not pertinent to the project.
+## How did we Manage the RMarkdown/Git/GitHub Complexity and Learning Curve
+ 
+## Concluding Thoughts as a Team
+We all hope you enjoyed this book as much as we enjoyed creating it. We hope readers will take these areas of concern to heart and pay attention to how AI evolves in the future. This was a phenomenal group to work with and we are all very grateful to have such a positive team experience.

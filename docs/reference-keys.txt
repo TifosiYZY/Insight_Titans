@@ -8,8 +8,7 @@ aaron-zhao
 hardware
 case-analysis---chatgpt
 case-analysis---bard
-ethical-dilemmas
-resource-allocation
+ethical-dilemmas-in-resource-allocation-and-e-waste
 natural-resource-consumption
 facts-on-current-generative-ai-energy-usage
 why-training-generative-ai-uses-so-much-energy
@@ -56,4 +55,10 @@ conclusion-challenges-and-future-directions
 privacy-and-security
 ethical-frameworks
 reference
-ethical-dilemmas-in-resource-allocation-and-e-waste
+how-we-build-our-book
+documentation-of-our-group-process
+how-did-our-group-handle-challenges-and-change
+how-did-we-divide-work-and-leverage-unique-strengths-of-each-team-member
+how-did-we-adopt-agile-work-practices
+concluding-thoughts-as-a-team
+how-did-we-manage-the-rmarkdowngitgithub-complexity-and-learning-curve
