@@ -1,5 +1,57 @@
 # Reference
 
+1.	https://privacytools.seas.harvard.edu/differential-privacy
+2.	https://www.intelligence.gov/principles-of-artificial-intelligence-ethics-for-the-intelligence-community
+3.	https://venturebeat.com/ai/redpajama-replicates-llama-to-build-open-source-state-of-the-art-llms/
+4.	https://huggingface.co/docs/transformers/philosophy
+5.	https://research.netflix.com/research-area/machine-learning
+6.	https://www.nature.com/articles/s41591-023-02448-8
+7.	https://www.cancer.gov/news-events/cancer-currents-blog/2022/artificial-intelligence-cancer-imaging
+8.	https://news.umich.edu/new-language-learning-algorithms-risk-reinforcing-inequalities-social-fragmentation-per-u-m-study/
+9.	https://news.emory.edu/stories/2022/05/hs_ai_systems_detect_patient_race_27-05-2022/story.html, https://www.thelancet.com/journals/landig/article/PIIS2589-7500(22)00063-2/fulltext
+10.	https://blog.twitter.com/engineering/en_us/topics/insights/2021/learnings-from-the-first-algorithmic-bias-bounty-challenge
+11.	https://www.scientificamerican.com/article/a-computer-scientist-breaks-down-generative-ais-hefty-carbon-footprint/
+12.	https://www.theguardian.com/technology/2023/jun/08/artificial-intelligence-industry-boom-environment-toll
+13.	https://medium.com/mlearning-ai/rethinking-large-language-models-for-nlp-alternatives-and-efficiency-73c6fead5ebf
+14.	https://www.businessinsider.com/chatgpt-generative-ai-water-use-environmental-impact-study-2023-4
+15.	https://news.ucr.edu/articles/2023/04/28/ai-programs-consume-large-volumes-scarce-water
+16.	https://ai.googleblog.com/2022/02/good-news-about-carbon-footprint-of.html
+17.	https://privacytools.seas.harvard.edu/differential-privacy
+18.	https://www.intelligence.gov/principles-of-artificial-intelligence-ethics-for-the-intelligence-community
+19.	https://venturebeat.com/ai/redpajama-replicates-llama-to-build-open-source-state-of-the-art-llms/
+20.	https://huggingface.co/docs/transformers/philosophy
+21.	https://research.netflix.com/research-area/machine-learning
+22.	https://privacytools.seas.harvard.edu/differential-privacy
+23.	https://www.intelligence.gov/principles-of-artificial-intelligence-ethics-for-the-intelligence-community
+24.	https://venturebeat.com/ai/redpajama-replicates-llama-to-build-open-source-state-of-the-art-llms/
+25.	https://privacytools.seas.harvard.edu/differential-privacy
+26.	https://www.intelligence.gov/principles-of-artificial-intelligence-ethics-for-the-intelligence-community
+27.	https://github.com/mithril-security/blindai?ref=blog.mithrilsecurity.io
+28.	https://blog.pangeanic.com/automl-and-llm-self-training-maintaining-data-privacy-in-the-ai-revolution
+29.	https://www.datacamp.com/tutorial/understanding-data-drift-model-drift
+30.	https://arxiv.org/pdf/2004.05785.pdf
+31.	https://futureoflife.org/ai/the-unavoidable-problem-of-self-improvement-in-ai-an-interview-with-ramana-kumar-part-1/
+32.	https://www.lesswrong.com/tag/recursive-self-improvement
+33.	https://privacytools.seas.harvard.edu/differential-privacy
+34.	https://www.intelligence.gov/principles-of-artificial-intelligence-ethics-for-the-intelligence-community
+35.	https://venturebeat.com/ai/redpajama-replicates-llama-to-build-open-source-state-of-the-art-llms/
+36.	https://huggingface.co/docs/transformers/philosophy
+37.	https://privacytools.seas.harvard.edu/differential-privacy
+38.	https://www.intelligence.gov/principles-of-artificial-intelligence-ethics-for-the-intelligence-community
+39.	https://venturebeat.com/ai/redpajama-replicates-llama-to-build-open-source-state-of-the-art-llms/
+40.	https://huggingface.co/docs/transformers/philosophy
+41.	https://research.netflix.com/research-area/machine-learning
+42.	https://www.nature.com/articles/s41591-023-02448-8
+43.	https://www.cancer.gov/news-events/cancer-currents-blog/2022/artificial-intelligence-cancer-imaging
+44.	https://news.umich.edu/new-language-learning-algorithms-risk-reinforcing-inequalities-social-fragmentation-per-u-m-study/
+45.	https://news.emory.edu/stories/2022/05/hs_ai_systems_detect_patient_race_27-05-2022/story.html, https://www.thelancet.com/journals/landig/article/PIIS2589-7500(22)00063-2/fulltext
+46.	https://blog.twitter.com/engineering/en_us/topics/insights/2021/learnings-from-the-first-algorithmic-bias-bounty-challenge
+47.	https://privacytools.seas.harvard.edu/differential-privacy
+48.	https://www.intelligence.gov/principles-of-artificial-intelligence-ethics-for-the-intelligence-community
+49.	https://venturebeat.com/ai/redpajama-replicates-llama-to-build-open-source-state-of-the-art-llms/
+50.	https://privacytools.seas.harvard.edu/differential-privacy
+51.	https://www.intelligence.gov/principles-of-artificial-intelligence-ethics-for-the-intelligence-community
+
 
 
 
